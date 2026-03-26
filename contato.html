@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato e Parcerias | Anfitriões Airbnb</title>
+    <meta name="description" content="Entre em contato com a equipe do Anfitriões Airbnb para tirar dúvidas, sugerir temas, firmar parcerias e contratar consultorias em gestão de propriedades de curta temporada.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://anfitrioesairbnb.com/contato.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anfitrioesairbnb.com/contato.html">
+    <meta property="og:title" content="Contato e Parcerias | Anfitriões Airbnb">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .page-header { background-color: var(--soft-white); padding: 4rem 5%; text-align: center; }
+        .page-header h1 { font-size: 2.5rem; color: var(--dark-navy); margin-bottom: 1rem; }
+        .contact-container { max-width: 800px; margin: 4rem auto; padding: 0 5%; }
+        .contact-form { background: white; padding: 3rem; border-radius: var(--border-radius); box-shadow: var(--shadow-md); }
+        .contact-form input, .contact-form textarea, .contact-form select { width: 100%; padding: 1rem; margin-bottom: 1.5rem; border: 1px solid var(--border-color); border-radius: 4px; font-family: inherit; }
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        @media (max-width: 600px) { .contact-grid { grid-template-columns: 1fr; } }
+        .contact-info { margin-bottom: 3rem; text-align: center; }
+        .contact-info i { color: var(--artsy-red); font-size: 1.5rem; margin-right: 10px; }
+        .contact-info p { margin-bottom: 0.5rem; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo-container"><h1><a href="index.html" style="color:var(--artsy-red); text-decoration: none;"><i class="fa-solid fa-house-user"></i> Anfitriões Airbnb</a></h1></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="precificacao.html">Precificação</a></li>
+                <li><a href="gestao.html">Gestão</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Fale com Especialistas</h1>
+        <p>Preencha o formulário abaixo ou envie um e-mail para nossa equipe.</p>
+    </div>
+
+    <main class="contact-container">
+        <div class="contact-info">
+            <p><i class="fa-solid fa-envelope"></i> contato@anfitrioesairbnb.com</p>
+            <p><i class="fa-brands fa-whatsapp"></i> (11) 99999-9999 (Apenas WhatsApp Corporativo)</p>
+        </div>
+
+        <form class="contact-form" name="contato" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contato" />
+            <p style="display: none;"><label>Não preencha isso: <input name="bot-field" /></label></p>
+            
+            <div class="contact-grid">
+                <input type="text" name="nome" placeholder="Seu Nome Completo" required>
+                <input type="email" name="email" placeholder="E-mail Profissional" required>
+            </div>
+            
+            <select name="assunto" required>
+                <option value="" disabled selected>Sobre qual assunto você quer falar?</option>
+                <option value="Dúvida Geral">Dúvida sobre um Artigo</option>
+                <option value="Consultoria">Quero Contratar Consultoria para meu Imóvel</option>
+                <option value="Parceria B2B">Parcerias e Anúncios B2B (Mídia)</option>
+                <option value="Outro">Outro assunto</option>
+            </select>
+            
+            <textarea name="mensagem" rows="6" placeholder="Escreva os detalhes da sua mensagem..." required></textarea>
+            
+            <button type="submit" class="btn-primary" style="width: 100%; border-radius: 4px;">Enviar Mensagem</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">&copy; 2026 Anfitriões Airbnb. Todos os direitos reservados.</div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -28,16 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Simulação de captura da Newsletter
-    const form = document.querySelector('.newsletter-form');
-    if(form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const emailInput = form.querySelector('input[type="email"]');
-            alert(`Sucesso! O checklist será enviado para: ${emailInput.value} (Simulação)`);
-            emailInput.value = '';
-        });
-    }
+    // O formulário de newsletter agora é gerenciado pelo Netlify Forms (index.html)
 
     // Micro-interações nas imagens de Blog para UX Premium
     const blogCards = document.querySelectorAll('.blog-card');
