@@ -251,6 +251,7 @@ ul {
   transition: var(--hover-transition);
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .blog-card:hover {
@@ -293,6 +294,17 @@ ul {
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.4;
+}
+
+/* Faz o link do título expandir e cobrir todo o card (imagem, texto, padding) */
+.blog-title a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .blog-excerpt {

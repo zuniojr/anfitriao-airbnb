@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Cancelamento de Experiências no Airbnb: Guia para Anfitriões | Anfitriões Airbnb</title>
+    <meta name="description" content="Entenda as políticas de cancelamento para experiências e serviços no Airbnb: prazo de 1 dia ou 3 dias, reembolsos, exceções e como isso afeta o seu pagamento como anfitrião.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .page-header { background: linear-gradient(135deg, #0f4c75 0%, #1b6ca8 60%, #1e90ff 100%); padding: 5rem 5% 4rem; text-align: center; color: white; }
+        .page-header h1 { color: white; font-size: 2.2rem; max-width: 800px; margin: 0 auto 1rem; line-height: 1.3; }
+        .page-header p { color: rgba(255,255,255,0.85); font-size: 1.1rem; max-width: 650px; margin: 0 auto; }
+        .article-meta { display: flex; align-items: center; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; font-size: 0.9rem; color: rgba(255,255,255,0.65); }
+        .article-meta span { display: flex; align-items: center; gap: 0.4rem; }
+        .article-container { max-width: 820px; margin: 4rem auto; padding: 0 5%; }
+        .article-img { width: 100%; border-radius: 12px; margin-bottom: 2rem; box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
+        .summary-box { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-left: 5px solid #1b6ca8; padding: 1.5rem 2rem; border-radius: 0 12px 12px 0; margin: 2rem 0; }
+        .summary-box h3 { margin-top: 0; color: #0f4c75; }
+        .policy-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+        @media(max-width:600px){ .policy-compare { grid-template-columns: 1fr; } }
+        .policy-card { border-radius: 12px; padding: 1.5rem; text-align: center; }
+        .policy-card.one { background: #f0fdf4; border: 2px solid #22c55e; }
+        .policy-card.three { background: #fff7ed; border: 2px solid #f97316; }
+        .policy-card .icon { font-size: 2.5rem; margin-bottom: 0.8rem; }
+        .policy-card h3 { margin: 0 0 0.5rem; font-size: 1.2rem; }
+        .policy-card.one h3 { color: #15803d; }
+        .policy-card.three h3 { color: #c2410c; }
+        .policy-card p { margin: 0; font-size: 0.9rem; color: #374151; }
+        .policy-card .tag { display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 20px; margin-top: 0.8rem; }
+        .policy-card.one .tag { background: #dcfce7; color: #15803d; }
+        .policy-card.three .tag { background: #ffedd5; color: #c2410c; }
+        .timeline-simple { margin: 1.5rem 0; }
+        .timeline-item { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #f1f5f9; }
+        .timeline-item:last-child { border-bottom: none; }
+        .timeline-dot2 { width: 40px; height: 40px; border-radius: 50%; background: #1b6ca8; color: white; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1rem; }
+        .timeline-content2 h4 { margin: 0 0 0.2rem; color: #1e293b; font-size: 0.95rem; }
+        .timeline-content2 p { margin: 0; font-size: 0.88rem; color: #475569; }
+        .alert-box { background: #fff8e1; border-left: 5px solid #f59e0b; padding: 1.2rem 1.5rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; }
+        .alert-box strong { color: #92400e; }
+        .tip-box { background: #f0fdf4; border-left: 5px solid #22c55e; padding: 1.2rem 1.5rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; }
+        .info-box { background: #eff6ff; border-left: 5px solid #1b6ca8; padding: 1.2rem 1.5rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; }
+        .article-content h2 { font-size: 1.6rem; color: #1a1a2e; margin-top: 2.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0; }
+        .article-content p { color: #374151; line-height: 1.8; }
+        .article-content ul li { color: #374151; line-height: 1.7; margin-bottom: 0.5rem; }
+        .cta-box { background: linear-gradient(135deg, #0f4c75 0%, #1a1a2e 100%); color: white; padding: 2.5rem; border-radius: 14px; text-align: center; margin-top: 3rem; }
+        .cta-box h3 { color: white; margin-top: 0; }
+        .cta-box p { color: rgba(255,255,255,0.85); margin-bottom: 1.5rem; }
+        .related-posts { margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #e2e8f0; }
+        .related-posts h3 { color: #1a1a2e; margin-bottom: 1rem; }
+        .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        @media(max-width:600px){ .related-grid { grid-template-columns: 1fr; } }
+        .related-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 1rem 1.2rem; text-decoration: none; transition: all 0.2s; }
+        .related-card:hover { background: #eff6ff; border-color: #1b6ca8; transform: translateY(-2px); }
+        .related-card span { font-size: 0.8rem; color: #64748b; }
+        .related-card p { margin: 0.3rem 0 0; font-weight: 600; color: #1a1a2e; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-container"><a href="index.html" style="text-decoration:none;"><h1><i class="fa-solid fa-house-user"></i> <span style="color:black;">Anfitrião</span> Airbnb</h1></a></div>
+        <nav><ul class="nav-links"><li><a href="index.html">Início</a></li><li><a href="dicas.html">Dicas para Anfitriões</a></li><li><a href="precificacao.html">Precificação Inteligente</a></li><li><a href="gestao.html">Gestão e Automação</a></li><li><a href="sobre.html">Sobre</a></li></ul></nav>
+        <div class="nav-actions"><a href="index.html#newsletter" class="btn-primary">Baixar Guia Grátis</a></div>
+    </header>
+
+    <div class="page-header">
+        <h1>Política de Cancelamento de Experiências no Airbnb: O que Todo Anfitrião Precisa Saber</h1>
+        <p>Entenda as regras de cancelamento e reembolso para experiências e serviços, como proteger sua renda e o que acontece em casos especiais.</p>
+        <div class="article-meta">
+            <span><i class="fa-regular fa-calendar"></i> Março de 2026</span>
+            <span><i class="fa-regular fa-clock"></i> 6 min de leitura</span>
+            <span><i class="fa-solid fa-tag"></i> Políticas e Regras</span>
+        </div>
+    </div>
+
+    <main class="article-container">
+        <article class="article-content">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop" alt="Anfitrião consultando política de cancelamento no notebook antes de uma experiência" class="article-img">
+
+            <div class="summary-box">
+                <h3><i class="fa-solid fa-list-check"></i> O que você vai aprender:</h3>
+                <ul>
+                    <li><strong>Política de 1 dia:</strong> O padrão para a maioria das experiências e serviços.</li>
+                    <li><strong>Política de 3 dias:</strong> Quando está disponível e como escolher.</li>
+                    <li><strong>Exceções:</strong> Quando o reembolso ao hóspede supera a sua política.</li>
+                    <li><strong>Impacto no pagamento:</strong> O que acontece quando um hóspede cancela dentro do prazo.</li>
+                </ul>
+            </div>
+
+            <p>Para anfitriões de experiências e serviços, entender a <strong>política de cancelamento</strong> é fundamental para proteger sua renda e definir expectativas claras para os participantes. Diferente das acomodações — que têm múltiplas opções como Flexível, Moderada, Rígida e Rigorosa — as experiências seguem um modelo mais simples.</p>
+
+            <h2>As Duas Políticas de Cancelamento Disponíveis</h2>
+
+            <div class="policy-compare">
+                <div class="policy-card one">
+                    <div class="icon">⏰</div>
+                    <h3>Política de 1 Dia</h3>
+                    <p>O participante pode cancelar e receber <strong>reembolso integral</strong> até <strong>24 horas antes</strong> do horário de início da experiência ou serviço.</p>
+                    <span class="tag">✅ Padrão para a maioria</span>
+                </div>
+                <div class="policy-card three">
+                    <div class="icon">📅</div>
+                    <h3>Política de 3 Dias</h3>
+                    <p>Disponível para alguns tipos de experiência. O participante pode cancelar com <strong>reembolso integral</strong> até <strong>72 horas antes</strong> do início da atividade.</p>
+                    <span class="tag">🔒 Disponível para selecionados</span>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <strong><i class="fa-solid fa-circle-info"></i> Política de 3 dias:</strong> Essa opção mais protetora para o anfitrião está disponível apenas para determinados tipos de experiência ou serviço, dependendo das especificações do anúncio. Verifique se ela está disponível para o seu anúncio nas configurações de política de cancelamento.
+            </div>
+
+            <h2>O que Acontece com seu Pagamento quando um Hóspede Cancela?</h2>
+            <p>O impacto no seu pagamento depende do <strong>momento em que o cancelamento é feito</strong>:</p>
+
+            <div class="timeline-simple">
+                <div class="timeline-item">
+                    <div class="timeline-dot2"><i class="fa-solid fa-check"></i></div>
+                    <div class="timeline-content2">
+                        <h4>Cancelamento dentro do prazo de reembolso</h4>
+                        <p>O hóspede recebe reembolso integral e <strong>você não recebe nenhum pagamento</strong> por essa reserva.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot2"><i class="fa-solid fa-xmark"></i></div>
+                    <div class="timeline-content2">
+                        <h4>Cancelamento fora do prazo de reembolso</h4>
+                        <p>O hóspede cancela com menos de 24h (ou 72h) de antecedência e geralmente <strong>você mantém o pagamento</strong> conforme a política do anúncio.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot2"><i class="fa-solid fa-ban"></i></div>
+                    <div class="timeline-content2">
+                        <h4>Cancelamento pelo anfitrião</h4>
+                        <p>Se você cancelar, o hóspede recebe reembolso integral e você pode sofrer penalidades conforme a Política de Cancelamento do Anfitrião para Serviços e Experiências.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Exceções: Quando a Política do Anúncio Não se Aplica</h2>
+            <p>Existem situações em que o hóspede pode receber reembolso independentemente da política do seu anúncio. São casos especiais previstos nas políticas do Airbnb:</p>
+            <ul>
+                <li><strong>Grandes Eventos Disruptivos:</strong> Se um evento de grande escala no local impedir ou proibir legalmente a realização da experiência (como desastres naturais, pandemias ou proibições governamentais), o Airbnb aplica a Política de Grandes Eventos Disruptivos e o hóspede pode cancelar com reembolso integral.</li>
+                <li><strong>Problema Coberto pela Política de Reembolso:</strong> Se você, como anfitrião, for responsável por um problema que impediu a realização da experiência ou serviço conforme anunciado, o hóspede tem direito a reembolso.</li>
+            </ul>
+
+            <div class="alert-box">
+                <strong><i class="fa-solid fa-triangle-exclamation"></i> Recuperação de valores:</strong> Se o Airbnb precisar reembolsar um hóspede após você já ter recebido o pagamento — por exemplo, em caso de cancelamento coberto — o valor pode ser <strong>deduzido automaticamente do próximo pagamento</strong> programado para você.
+            </div>
+
+            <h2>O que Considerar ao Escolher sua Política de Cancelamento</h2>
+            <p>A política certa para o seu anúncio depende do tipo de experiência ou serviço que você oferece:</p>
+            <ul>
+                <li><strong>Experiências que exigem preparação antecipada significativa</strong> (como um jantar gourmet ou passeio de barco) se beneficiam da política de 3 dias, pois você precisa de tempo para se preparar e não pode aproveitar o slot cancelado.</li>
+                <li><strong>Experiências mais simples ou que podem ser remontadas facilmente</strong> podem funcionar bem com a política de 1 dia, que é mais atrativa para os hóspedes na hora da decisão de compra.</li>
+                <li><strong>Políticas mais flexíveis tendem a gerar mais reservas</strong>, pois os participantes se sentem mais seguros para reservar sabendo que podem cancelar.</li>
+            </ul>
+
+            <div class="tip-box">
+                <strong><i class="fa-solid fa-lightbulb"></i> Dica estratégica:</strong> Se você oferece um serviço que envolve compra de ingredientes especiais ou reserva exclusiva de espaços, use a política de 3 dias (se disponível) e mencione isso explicitamente na descrição do anúncio. Isso ajuda os participantes a tomar decisões conscientes e reduz cancelamentos de última hora.
+            </div>
+
+            <h2>Verificar sua Política de Cancelamento nas Configurações</h2>
+            <p>Para verificar ou alterar a política de cancelamento do seu anúncio de experiência ou serviço:</p>
+            <ul>
+                <li>Acesse <strong>Anúncios</strong> no Airbnb → selecione a experiência ou serviço → clique em <strong>Gerenciar anúncio</strong>.</li>
+                <li>Procure a seção de <strong>Política de cancelamento</strong> nas configurações do anúncio.</li>
+                <li>Se a opção de 3 dias estiver disponível para seu tipo de anúncio, você poderá selecioná-la aqui.</li>
+            </ul>
+
+            <div class="cta-box">
+                <h3><i class="fa-solid fa-shield-halved"></i> Proteja seus Ganhos com Estratégias Profissionais</h3>
+                <p>Além de escolher a política certa, existem outras estratégias para maximizar sua renda como anfitrião de experiências e reduzir o impacto de cancelamentos.</p>
+                <a href="artigo-gestao-profissional.html" class="btn-primary">Gestão Profissional do Airbnb</a>
+            </div>
+
+            <div class="related-posts">
+                <h3>Artigos Relacionados</h3>
+                <div class="related-grid">
+                    <a href="artigo-requisitos-experiencias.html" class="related-card">
+                        <span><i class="fa-solid fa-clipboard-check"></i> Requisitos</span>
+                        <p>Requisitos para ser anfitrião de experiências</p>
+                    </a>
+                    <a href="artigo-avaliacoes-experiencias.html" class="related-card">
+                        <span><i class="fa-solid fa-star"></i> Avaliações</span>
+                        <p>Como funcionam as avaliações de experiências</p>
+                    </a>
+                    <a href="artigo-cancelamento-anfitriao.html" class="related-card">
+                        <span><i class="fa-solid fa-ban"></i> Cancelamentos</span>
+                        <p>O que acontece quando o anfitrião cancela</p>
+                    </a>
+                    <a href="artigo-receber-pagamentos-anfitriao.html" class="related-card">
+                        <span><i class="fa-solid fa-money-bill-wave"></i> Pagamentos</span>
+                        <p>Guia de pagamentos para anfitriões iniciantes</p>
+                    </a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-about"><a href="index.html" style="text-decoration:none;color:inherit;"><h3><i class="fa-solid fa-house-user"></i> <span style="color:black;">Anfitrião</span> Airbnb</h3></a><p>O maior portal educacional para anfitriões no Brasil.</p></div>
+            <div class="footer-links"><h4>Guias Principais</h4><ul><li><a href="dicas.html">Como começar do zero</a></li><li><a href="regras.html">Regras da Casa Ideais</a></li></ul></div>
+            <div class="footer-links"><h4>Monetize seu Imóvel</h4><ul><li><a href="ferramentas.html">Ferramentas Essenciais</a></li><li><a href="consultoria.html">Mentoria VIP</a></li></ul></div>
+            <div class="footer-links"><h4>Institucional</h4><ul><li><a href="sobre.html">Sobre a Empresa</a></li><li><a href="contato.html">Contato & Parcerias</a></li></ul></div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Anfitriões Airbnb. Todos os direitos reservados.</div>
+    </footer>
+</body>
+</html>
