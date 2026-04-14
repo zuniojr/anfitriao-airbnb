@@ -23,27 +23,27 @@ import Layout from '../layouts/Layout.astro';
         <h2 class="section-title">O que você precisa para dominar o Airbnb?</h2>
         <p class="section-subtitle">Tudo para tornar sua gestão mais fácil e lucrativa.</p>
         
-        <div class="features-grid">
-            <div class="feature-card">
+        <div class="features-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+            <a href="/precificacao" class="feature-card" style="display: block; text-decoration: none; color: inherit;">
                 <i class="fa-solid fa-chart-line feature-icon"></i>
-                <h3>Precificação Inteligente</h3>
+                <h3>Precificação Dinâmica</h3>
                 <p>Pare de perder dinheiro com diárias fixas. Aprenda a ajustar seus preços automaticamente com base na demanda e sazonalidade da sua região.</p>
-            </div>
-            <div class="feature-card">
+            </a>
+            <a href="/dicas" class="feature-card" style="display: block; text-decoration: none; color: inherit;">
                 <i class="fa-solid fa-broom feature-icon"></i>
                 <h3>Limpeza e Manutenção</h3>
                 <p>O segredo das avaliações 5 estrelas. Checklists completos para garantir que sua equipe de limpeza deixe tudo impecável a cada check-in.</p>
-            </div>
-            <div class="feature-card">
+            </a>
+            <a href="/gestao" class="feature-card" style="display: block; text-decoration: none; color: inherit;">
                 <i class="fa-solid fa-robot feature-icon"></i>
                 <h3>Automação de Tarefas</h3>
                 <p>Fechaduras eletrônicas, mensagens automáticas e PMS. Como gerenciar dezenas de propriedades sem precisar sair de casa.</p>
-            </div>
-            <div class="feature-card">
+            </a>
+            <a href="/artigo-fotografia-airbnb" class="feature-card" style="display: block; text-decoration: none; color: inherit;">
                 <i class="fa-solid fa-couch feature-icon"></i>
                 <h3>Design e Decoração</h3>
                 <p>Transforme seu espaço num ímã de reservas. Descubra os itens que não podem faltar e como tirar fotos que vendem (guest ready).</p>
-            </div>
+            </a>
         </div>
     </section>
 
@@ -74,87 +74,87 @@ import Layout from '../layouts/Layout.astro';
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="apartamento-luxo-balneario-camboriu-airbnb.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/apartamento-luxo-balneario-camboriu-airbnb.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Investimento de Luxo</span><h3 class="blog-title"><a href="/artigo-balneario-camboriu">Balneário Camboriú: Rentabilidade nas Alturas</a></h3><p class="blog-excerpt">Como transformar seu imóvel na "Dubai Brasileira" em uma máquina de lucro com o público de alto padrão.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="meia-praia-itapema-sc-investimento.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/meia-praia-itapema-sc-investimento.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Crescimento (SC)</span><h3 class="blog-title"><a href="/artigo-itapema-porto-belo">Itapema & Porto Belo: Rentabilidade Real</a></h3><p class="blog-excerpt">Por que Meia Praia e Porto Belo são a bola da vez para investidores de Airbnb em 2026.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="turismo-blumenau-vila-germanica-hospedagem.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/turismo-blumenau-vila-germanica-hospedagem.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Vale Europeu (SC)</span><h3 class="blog-title"><a href="/artigo-blumenau">Blumenau: Do Negócio ao Lazer</a></h3><p class="blog-excerpt">Descubra como o turismo de negócios e a cultura alemã garantem ocupação o ano todo no coração do Vale.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="https://images.unsplash.com/photo-1541599540903-21c12807e5ef?q=80&w=2000&auto=format&fit=crop" class="blog-image"></div>
-                <div class="blog-content"><span class="blog-category">Dicas de Hospedagem</span><h3 class="blog-title"><a href="/artigo-pet-friendly-guia">Airbnb Pet Friendly: O Guia 🐾</a></h3><p class="blog-excerpt">Saiba como adaptar seu imóvel para receber pets e atrair a gigante fatia de hóspedes que não viaja sem seus animais.</p></div>
+                <div class="blog-img-wrapper"><img src="/gestao-de-crise-e-seguranca-airbnb.avif" class="blog-image"></div>
+                <div class="blog-content"><span class="blog-category">Segurança e Privacidade</span><h3 class="blog-title"><a href="/artigo-seguranca-cameras-privacidade">Câmeras no Airbnb: O Guia 🛡️</a></h3><p class="blog-excerpt">Entenda as novas regras de privacidade da plataforma e como proteger seu imóvel legalmente.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="https://images.unsplash.com/photo-1544413627-3ce9f1a2380f?q=80&w=2000&auto=format&fit=crop" class="blog-image"></div>
-                <div class="blog-content"><span class="blog-category">Piçarras (SC)</span><h3 class="blog-title"><a href="/artigo-balneario-picarras-airbnb">Piçarras: O Novo Eldorado 🚩</a></h3><p class="blog-excerpt">Por que o selo Bandeira Azul e o boom imobiliário estão transformando Piçarras na nova queridinha do Airbnb.</p></div>
+                <div class="blog-img-wrapper"><img src="/apartamento-praia-brava-itajai-aluguel.avif" class="blog-image"></div>
+                <div class="blog-content"><span class="blog-category">Estadías Longas</span><h3 class="blog-title"><a href="/artigo-hospedes-longa-duracao-nomades">Hub para Nômades Digitais 💻</a></h3><p class="blog-excerpt">Como adaptar sua estratégia para estadias de 30 dias ou mais e garantir renda estável o ano todo.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2000&auto=format&fit=crop" class="blog-image"></div>
-                <div class="blog-content"><span class="blog-category">Experiência do Hóspede</span><h3 class="blog-title"><a href="/artigo-cantinho-do-cafe-airbnb">O Cantinho do Café Perfeito ☕</a></h3><p class="blog-excerpt">Dicas práticas de como montar um espaço de café que encanta o hóspede logo no primeiro minuto da estadia.</p></div>
+                <div class="blog-img-wrapper"><img src="/relacionamento-anfitriao-hospede-automatizado.avif" class="blog-image"></div>
+                <div class="blog-content"><span class="blog-category">Comunicação</span><h3 class="blog-title"><a href="/artigo-comunicacao-hospedes-modelos">Scripts que Vendem 📩</a></h3><p class="blog-excerpt">Economize horas com modelos de mensagens que encantam o hóspede da reserva ao checkout.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="https://images.unsplash.com/photo-1543946207-39bd91e70e70?q=80&w=2000&auto=format&fit=crop" class="blog-image"></div>
-                <div class="blog-content"><span class="blog-category">Estratégia de Sazonalidade</span><h3 class="blog-title"><a href="/artigo-airbnb-inverno-estrategias">Agenda Lotada no Inverno ❄️</a></h3><p class="blog-excerpt">Como adaptar seu anúncio para os meses frios e garantir que seu faturamento não caia junto com a temperatura.</p></div>
+                <div class="blog-img-wrapper"><img src="/welcome-gift-airbnb.avif" class="blog-image"></div>
+                <div class="blog-content"><span class="blog-category">Hospitalidade</span><h3 class="blog-title"><a href="/artigo-kit-boas-vindas-criativo">O Poder do Welcome Kit 🎁</a></h3><p class="blog-excerpt">Pequenos mimos que garantem avaliações 5 estrelas e fazem o hóspede se sentir em casa.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="jurere-internacional-floripa-vista-aerea.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/jurere-internacional-floripa-vista-aerea.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Litoral Catarinense</span><h3 class="blog-title"><a href="/artigo-florianopolis">Florianópolis: A Ilha da Magia</a></h3><p class="blog-excerpt">Estratégias para lucrar com a alta demanda em Floripa, de Jurerê aos Ingleses.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="hospedagem-luxo-penha-sc-beto-carrero.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/hospedagem-luxo-penha-sc-beto-carrero.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Retenção de Ticket Médio</span><h3 class="blog-title"><a href="/artigo-penha-beto-carrero">Penha: Além do Beto Carrero World</a></h3><p class="blog-excerpt">Fature com pacotes mais longos exibindo as praias ocultas da Costa Verde e Mar.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="comparativo-airbnb-aluguel-tradicional.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/comparativo-airbnb-aluguel-tradicional.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Mercado Financeiro</span><h3 class="blog-title"><a href="/artigo-antes-e-depois">A Revolução do Aluguel em SC</a></h3><p class="blog-excerpt">O fim do tradicional aluguel e o avanço dos super-anfitriões automatizados e fundos Short-Stay.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="como-ser-superhost-airbnb-5-estrelas.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/como-ser-superhost-airbnb-5-estrelas.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Básicos do Hospedagem</span><h3 class="blog-title"><a href="/artigo-como-hospedar-sc">Como Ser Anfitrião em SC (Passo a Passo)</a></h3><p class="blog-excerpt">O cronograma para o dono de imóvel organizar o perfil na plataforma e encantar nas chaves.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="decoracao-studio-luxo-airbnb-moderno.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/decoracao-studio-luxo-airbnb-moderno.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Limpeza 5 Estrelas</span><h3 class="blog-title"><a href="/artigo-higienizacao">A Guerra contra a Maresia e Umidade</a></h3><p class="blog-excerpt">Limpeza profunda no Airbnb não é só lavar banheiro, evite comentários negativos sobre praias.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="relacionamento-anfitriao-hospede-automatizado.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/relacionamento-anfitriao-hospede-automatizado.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Diplomacia (Gestão de Conflito)</span><h3 class="blog-title"><a href="/artigo-boas-praticas">O Guia de Relacionamento no Airbnb</a></h3><p class="blog-excerpt">Como lidar com síndicos estressados e hóspedes esquecidos com cordialidade profissional via automação.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="metricas-desempenho-anfitriao-airbnb.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/metricas-desempenho-anfitriao-airbnb.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Erros Comuns</span><h3 class="blog-title"><a href="/artigo-erros">Erros Fatais dos Anfitriões Iniciantes</a></h3><p class="blog-excerpt">Camas parecendo sofá e limpeza em fotos assombram as métricas da sua Ocupação online!</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="como-ser-superhost-airbnb-5-estrelas.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/como-ser-superhost-airbnb-5-estrelas.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Proteção do Anfitrião</span><h3 class="blog-title"><a href="/artigo-garantia-aircover">AirCover: O Seguro Milionário Grátis</a></h3><p class="blog-excerpt">Entenda como funciona a proteção contra danos e responsabilidade civil do Airbnb.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="comparativo-airbnb-aluguel-tradicional.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/comparativo-airbnb-aluguel-tradicional.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Marketing Digital</span><h3 class="blog-title"><a href="/artigo-titulo-descricao">SEO: Títulos e Descrições Matadoras</a></h3><p class="blog-excerpt">Aprenda a escrever anúncios que convertem cliques em reservas confirmadas.</p></div>
             </article>
 
             <article class="blog-card">
-                <div class="blog-img-wrapper"><img src="apartamento-praia-brava-itajai-aluguel.avif" class="blog-image"></div>
+                <div class="blog-img-wrapper"><img src="/apartamento-praia-brava-itajai-aluguel.avif" class="blog-image"></div>
                 <div class="blog-content"><span class="blog-category">Gestão de Ocupação</span><h3 class="blog-title"><a href="/artigo-baixa-temporada">Como Vencer a Baixa Temporada</a></h3><p class="blog-excerpt">7 estratégias práticas para manter sua agenda lotada mesmo nos meses mais frios.</p></div>
             </article>
         </div>
