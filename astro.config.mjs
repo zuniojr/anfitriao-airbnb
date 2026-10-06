@@ -7,7 +7,9 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   site: 'https://anfitrioesairbnb.com/',
   output: 'hybrid',
-  adapter: vercel(),
+  adapter: vercel({
+    nodeVersion: '22',
+  }),
   integrations: [
     react(),
     tailwind({
