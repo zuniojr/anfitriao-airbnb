@@ -1,11 +1,4 @@
 ﻿{
-  "framework": "astro",
-  "buildCommand": "npm run build",
-  "functions": {
-    "src/pages/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "crons": [
     {
       "path": "/api/cron/process-sequences",
