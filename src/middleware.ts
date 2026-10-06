@@ -45,8 +45,8 @@ export const onRequest = defineMiddleware(async (context, next) => {
         return next();
     }
 
-    // Login page: always accessible
-    if (pathname === '/admin/login') {
+    // Login page e API de login: always accessible
+    if (pathname === '/admin/login' || pathname === '/api/admin/login') {
         return next();
     }
 
